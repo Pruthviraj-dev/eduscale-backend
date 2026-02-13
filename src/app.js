@@ -7,10 +7,10 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+ // HINDI 
 app.use("/api/auth", authRoutes);
 app.use("/api/session", sessionRoutes);
-
+ // HINDISD
 app.get("/", (req, res) => {
   res.send("EduScale Backend Running 🚀");
 });
